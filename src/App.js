@@ -65,6 +65,7 @@ const App = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(values);
+    console.log('git change')
   };
 
   const onChange = (e) => {
